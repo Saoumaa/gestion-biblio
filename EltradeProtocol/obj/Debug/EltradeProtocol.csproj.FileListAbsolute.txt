@@ -1,0 +1,14 @@
+C:\Users\HP\Documents\projet\eltrade-fiscal-device-protocol-master\EltradeProtocol\EltradeProtocol\bin\Debug\EltradeProtocol.exe.config
+C:\Users\HP\Documents\projet\eltrade-fiscal-device-protocol-master\EltradeProtocol\EltradeProtocol\bin\Debug\EltradeProtocol.exe
+C:\Users\HP\Documents\projet\eltrade-fiscal-device-protocol-master\EltradeProtocol\EltradeProtocol\bin\Debug\EltradeProtocol.pdb
+C:\Users\HP\Documents\projet\eltrade-fiscal-device-protocol-master\EltradeProtocol\EltradeProtocol\bin\Debug\log4net.dll
+C:\Users\HP\Documents\projet\eltrade-fiscal-device-protocol-master\EltradeProtocol\EltradeProtocol\bin\Debug\log4net.xml
+C:\Users\HP\Documents\projet\eltrade-fiscal-device-protocol-master\EltradeProtocol\EltradeProtocol\obj\Debug\EltradeProtocol.csproj.CopyComplete
+C:\Users\HP\Documents\projet\eltrade-fiscal-device-protocol-master\EltradeProtocol\EltradeProtocol\obj\Debug\EltradeProtocol.exe
+C:\Users\HP\Documents\projet\eltrade-fiscal-device-protocol-master\EltradeProtocol\EltradeProtocol\obj\Debug\EltradeProtocol.pdb
+C:\Users\HP\Documents\projet\eltrade-fiscal-device-protocol-master\EltradeProtocol\EltradeProtocol\obj\Debug\EltradeProtocol.csprojAssemblyReference.cache
+C:\Users\HP\Documents\projet\eltrade-fiscal-device-protocol-master\EltradeProtocol\EltradeProtocol\obj\Debug\EltradeProtocol.csproj.CoreCompileInputs.cache
+G:\Eltrade\EltradeProtocol\obj\Debug\EltradeProtocol.exe
+G:\Eltrade\EltradeProtocol\obj\Debug\EltradeProtocol.pdb
+D:\WCG\Eltrade\EltradeProtocol\obj\Debug\EltradeProtocol.exe
+D:\WCG\Eltrade\EltradeProtocol\obj\Debug\EltradeProtocol.pdb

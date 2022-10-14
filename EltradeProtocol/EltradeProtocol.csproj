@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FD9F9450-8243-4076-9A9A-08A9721663D2}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>EltradeProtocol</RootNamespace>
+    <AssemblyName>EltradeProtocol</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>EltradeProtocol.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821, processorArchitecture=MSIL">
+      <HintPath>..\packages\log4net.1.2.10\lib\2.0\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="EltradeTransaction.cs" />
+    <Compile Include="Requests\AddFreeTextToFiscalReceipt.cs" />
+    <Compile Include="Requests\CalculateSubtotal.cs" />
+    <Compile Include="Requests\CalculateTotal.cs" />
+    <Compile Include="Requests\CashTransfer.cs" />
+    <Compile Include="Requests\GetCustomerInfo.cs" />
+    <Compile Include="Requests\GetPrinterDiagnosticInfoServer.cs" />
+    <Compile Include="Requests\DiscountType.cs" />
+    <Compile Include="Requests\GetFiscalTransactionStatus.cs" />
+    <Compile Include="Requests\GetLastReceiptNumber.cs" />
+    <Compile Include="Requests\GetPrinterDiagnosticInfo.cs" />
+    <Compile Include="Requests\GetReceiptStatus.cs" />
+    <Compile Include="Requests\GetTransactionStatus.cs" />
+    <Compile Include="Requests\GetStatuses.cs" />
+    <Compile Include="Requests\CloseFiscalReceipt.cs" />
+    <Compile Include="EltradeFiscalDeviceDriver.cs" />
+    <Compile Include="Requests\EltradeFiscalDeviceRequestPackage.cs" />
+    <Compile Include="EltradeFiscalDeviceResponsePackage.cs" />
+    <Compile Include="Requests\OpenFiscalReceipt.cs" />
+    <Compile Include="Requests\OpenOperatorErrorReceipt.cs" />
+    <Compile Include="Requests\OpenRefundReceipt.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Requests\PrintDailyReportByDepartments.cs" />
+    <Compile Include="Requests\PrintDailyReportByDepartmentsAndArticles.cs" />
+    <Compile Include="Requests\PrintDailyReport.cs" />
+    <Compile Include="Requests\PrintDuplicateReceipt.cs" />
+    <Compile Include="Requests\PrintMonthlyFiscalReport.cs" />
+    <Compile Include="Requests\PrintYearlyFiscalReport.cs" />
+    <Compile Include="Requests\RegisterGoods.cs" />
+    <Compile Include="Requests\RegisterPlu.cs" />
+    <Compile Include="Requests\SetDateTime.cs" />
+    <Compile Include="Requests\VoidReceipt.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
